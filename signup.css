@@ -1,0 +1,67 @@
+.card {
+    width: 700px;
+    margin: auto;
+    border: 2px;
+    border-style: solid;
+}
+
+.form-element {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.form-control-container {
+    width: 70%;
+    float: left;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card-header {
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.control:focus {
+    box-shadow: 0px 0px 3px 3px;
+    outline: none;
+    color: rgb(4, 4, 4);
+}
+
+.btn {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 30px;
+    width: 70px;
+    transition: all 0.2s;
+}
+
+.footer {
+    background-color: gray;
+    text-align: right;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
